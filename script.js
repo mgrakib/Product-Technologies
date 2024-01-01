@@ -202,7 +202,55 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.infrastructure_bg').classList.add('circle_pull');
             document.querySelector('.infrastructure_box').style.display = 'block';
             document.querySelector('.infrastructure_img').style.opacity = '1';
-            document.querySelector('.infrastructure').style.marginLeft = '-24%';
+            document.querySelector('.infrastructure_link').style.marginLeft = '-24%';
+        });
+    });
+    const spacialtyIcons = document.querySelectorAll('.spacialty_icon, .spacialty_bg');
+    spacialtyIcons.forEach(function (element) {
+        element.addEventListener('mouseover', function () {
+
+            resetAllStyleFun()
+            document.querySelector('.spacialty_icon').style.width = '9%';
+            document.querySelector('.spacialty_bg').classList.add('circle_pull');
+            document.querySelector('.specialty_box').style.display = 'block';
+            document.querySelector('.spacialty_img').style.opacity = '1';
+            document.querySelector('.spacialty_link').style.marginLeft = '-24%';
+        });
+    });
+    const defenceIcons = document.querySelectorAll('.defence_icon, .defence_bg');
+    defenceIcons.forEach(function (element) {
+        element.addEventListener('mouseover', function () {
+
+            resetAllStyleFun()
+            document.querySelector('.defence_icon').style.width = '9%';
+            document.querySelector('.defence_bg').classList.add('circle_pull');
+            document.querySelector('.defence_box').style.display = 'block';
+            document.querySelector('.defence_img').style.opacity = '1';
+            document.querySelector('.defence_link').style.marginLeft = '-24%';
+        });
+    });
+    const containmentIcons = document.querySelectorAll('.containment_icon, .containment_bg');
+    containmentIcons.forEach(function (element) {
+        element.addEventListener('mouseover', function () {
+
+            resetAllStyleFun()
+            document.querySelector('.containment_icon').style.width = '9%';
+            document.querySelector('.containment_bg').classList.add('circle_pull');
+            document.querySelector('.containment_box').style.display = 'block';
+            document.querySelector('.containment_img').style.opacity = '1';
+            document.querySelector('.containment_link').style.marginLeft = '-24%';
+        });
+    });
+    const constructionIcons = document.querySelectorAll('.construction_icon, .construction_bg');
+    constructionIcons.forEach(function (element) {
+        element.addEventListener('mouseover', function () {
+
+            resetAllStyleFun()
+            document.querySelector('.construction_icon').style.width = '9%';
+            document.querySelector('.construction_bg').classList.add('circle_pull');
+            document.querySelector('.construction_box').style.display = 'block';
+            document.querySelector('.construction_img').style.opacity = '1';
+            document.querySelector('.construction_link').style.marginLeft = '-24%';
         });
     });
 
