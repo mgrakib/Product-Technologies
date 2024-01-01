@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
         links.forEach(function (link) {
-            link.style.marginLeft = '-20%';
+            link.style.marginLeft = '-22%';
         });
     }
 
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.spray_bg').classList.add('circle_pull');
             document.querySelector('.spray_box').style.display = 'block';
             document.querySelector('.spray_img').style.opacity = '1';
-            document.querySelector('.spray_link').style.marginLeft = '-24%';
+            document.querySelector('.industrial_link').style.marginLeft = '-24%';
         });
     });
 
@@ -115,13 +115,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const polyfilIcons = document.querySelectorAll('.polyfil_icon, .polyfil_bg');
     polyfilIcons.forEach(function (element) {
         element.addEventListener('mouseover', function () {
-
             resetAllStyleFun()
             document.querySelector('.polyfil_icon').style.width = '9%';
             document.querySelector('.polyfil_bg').classList.add('circle_pull');
             document.querySelector('.polyfil_box').style.display = 'block';
-            document.querySelector('.polyfil_img').style.opacity = '1';
-            document.querySelector('.polyfill_link').style.marginLeft = '-24%';
+            document.querySelector('.poly_fil_img').style.opacity = '1';
+            document.querySelector('.notw').style.marginLeft = '-24%';
         });
     });
     const foamIcons = document.querySelectorAll('.foam_icon, .foam_bg');
@@ -133,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.foam_bg').classList.add('circle_pull');
             document.querySelector('.foam_box').style.display = 'block';
             document.querySelector('.foam_img').style.opacity = '1';
-            document.querySelector('.foam_link').style.marginLeft = '-24%';
+            document.querySelector('.spray_link').style.marginLeft = '-24%';
         });
     });
 
@@ -209,12 +208,13 @@ document.addEventListener('DOMContentLoaded', function () {
     spacialtyIcons.forEach(function (element) {
         element.addEventListener('mouseover', function () {
 
+            console.log('first', document.querySelector('.spacialty_link'))
             resetAllStyleFun()
             document.querySelector('.spacialty_icon').style.width = '9%';
             document.querySelector('.spacialty_bg').classList.add('circle_pull');
             document.querySelector('.specialty_box').style.display = 'block';
-            document.querySelector('.spacialty_img').style.opacity = '1';
-            document.querySelector('.spacialty_link').style.marginLeft = '-24%';
+            document.querySelector('.specialty_img').style.opacity = '1';
+            document.querySelector('.spacialty_link').style.marginLeft = '-28%';
         });
     });
     const defenceIcons = document.querySelectorAll('.defence_icon, .defence_bg');
