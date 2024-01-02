@@ -105,16 +105,11 @@
 	text-align: center;
 	line-height: 1.4em;
 }
-p {
-	margin: 0 0 (@line-height-computed / 2);
-}
 
 .industries_bg {
 	position: relative;
 	display: table;
 	width: 100%;
-	/*		background: url(images/waterproofing_bg.png) no-repeat;*/
-	/*	background-size: cover;*/
 }
 
 .top_text {
@@ -142,14 +137,9 @@ input.link_btn,
 	width: 155px;
 	left: 5%;
 }
-.division_box {
-	width: 28%;
-	position: absolute;
-	z-index: 1;
-	padding: 7px;
-	display: table;
-	right: 2%;
-}
+
+
+
 .content_box1 {
 	width: 28%;
 	position: absolute;
@@ -175,6 +165,16 @@ input.link_btn,
 .content_box1 ul {
 	margin-left: 30px;
 }
+
+.division_box {
+	width: 28%;
+	position: absolute;
+	z-index: 1;
+	padding: 7px;
+	display: table;
+	right: 2%;
+}
+
 .division_box span {
 	display: block;
 	width: 100%;
@@ -188,6 +188,7 @@ input.link_btn,
 .division_box p {
 	text-align: justify;
 }
+
 .pedestrian_box {
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4073b2+0,6fa7d8+100 */
 	background: #4073b2; /* Old browsers */
@@ -634,6 +635,8 @@ input.link_btn,
 	background-size: 8%;
 }
 
+
+
 .industries_bg {
 	position: relative;
 	display: table;
@@ -884,9 +887,10 @@ input.link_btn,
 	cursor: pointer;
 }
 .circle_blocks a {
-	left: -5%;
+	left: -1%;
 }
 
+a{color:#428bca;text-decoration:none;}a:hover,a:focus{color:#23527c;text-decoration:underline;}
 .circle_blocks_img {
 	transform: rotate(-72.5deg);
 	width: 20%;
@@ -1084,7 +1088,66 @@ input.link_btn,
 	transform: rotate(337.5deg);
 }
 
+
+
+/* text  */
+@media screen and (max-width: 1440px) {
+	.caption {
+		width: 65.5%;
+	}
+
+	.header_content {
+		width: 54%;
+	}
+	body,
+	p,
+	.link,
+	.page_list li a {
+		font-size: 14px;
+	}
+	.manufacturing_link p,
+	.unprecedented_link p,
+	.storied_quality_link p,
+	.Product_innovations_link p {
+		font-size: 14px;
+	}
+	.circle_blocks a,
+	.waterproofing_circle a,
+	.cast_circle a,
+	.polyfill_circle a,
+	.circle_text {
+		font-size: 13px;
+	}
+
+	.lg_title {
+		font-size: 25px;
+	}
+
+	.md_title {
+		font-size: 21px;
+	}
+	.list_title,
+	.normal_title,
+	.sm_title,
+	.page_list li,
+	.menu_bar li a,
+	.header_content a,
+	.header_content input,
+	.link_btn,
+	input.link_btn,
+	.master_links,
+	.quick_links {
+		font-size: 16px;
+	}
+}
+
 @media screen and (max-width: 1366px) {
+	.menu_bar {
+		margin-top: 76px;
+	}
+	.header_content {
+		width: 57%;
+	}
 	body,
 	p,
 	.link,
@@ -1109,7 +1172,6 @@ input.link_btn,
 	.lg_title {
 		font-size: 23px;
 	}
-
 	.md_title {
 		font-size: 20px;
 	}
@@ -1129,6 +1191,7 @@ input.link_btn,
 }
 
 @media screen and (max-width: 1280px) {
+	
 	.wheel_box {
 		width: 60%;
 		display: table;
@@ -1136,15 +1199,10 @@ input.link_btn,
 		left: 20%;
 		position: absolute;
 	}
-
 	body,
 	p,
-	.link,
-	.menu_bar li a,
-	.header_content a,
-	.header_content input,
-	.page_list li a {
-		font-size: 12px;
+	.link {
+		font-size: 8px;
 	}
 	.manufacturing_link p,
 	.unprecedented_link p,
@@ -1161,11 +1219,11 @@ input.link_btn,
 	}
 
 	.lg_title {
-		font-size: 22px;
+		font-size:12px;
 	}
 
 	.md_title {
-		font-size: 18px;
+		font-size: 10px;
 	}
 	.list_title,
 	.normal_title,
@@ -1179,80 +1237,185 @@ input.link_btn,
 	}
 }
 
-@media screen and (max-width: 1080px) {
-}
-@media screen and (max-width: 767px) {
-}
-@media screen and (max-width: 690px) {
-	.header_logo {
-		width: 260px;
-		padding: 75px 0;
-	}
-	.toggle {
-		top: 109px;
-	}
-	.slider_space {
-		margin-top: 0;
+
+/* box  */
+
+@media screen and (max-width: 1590px) {
+	.circle_text {
+		width: 150px;
 	}
 }
-@media screen and (max-width: 640px) {
-	.banner_img {
-		padding: 50% 0 11.7% 8.4%;
+@media screen and (max-width: 1400px) {
+	.polyfil_box,
+	.transport_box {
+		top: 35.5%;
 	}
-	.contact_banner {
-		background: url(../images/contact_banner.jpg) no-repeat;
-		padding-top: 60%;
-		background-size: cover;
+	.foam_box,
+	.theme_box {
+		top: 32%;
+	}
+	.concrete_box {
+		top: 29%;
+	}
+	.pedestrian_box {
+		top: 31%;
+	}
+	.spray_box {
+		top: 36%;
+	}
+	.cast_box,
+	.marine_box,
+	.infrastructure_box {
+		top: 37%;
+	}
+	.specialty_box {
+		top: 34%;
+	}
+	.recreation_box {
+		top: 30%;
+	}
+
+	.oil_gas_box,
+	.defence_box,
+	.containment_box {
+		top: 36.5%;
+	}
+	.construction_box {
+		top: 37%;
 	}
 }
-@media screen and (max-width: 580px) {
-	.waterproofing_banner,
-	.cast_banner {
-		background: url(../images/waterproofing_bg1.jpg) no-repeat;
-		background-size: auto;
-		background-size: cover;
-		width: 100%;
-		display: table;
-		padding: 54% 0 2.3% 9.5%;
-	}
-	.header_content {
-		width: 175px;
-		top: 17px;
-		right: 0;
+@media screen and (max-width: 1366px) {
+	.circle_text {
+		width: 136px;
 	}
 }
 
-@media screen and (max-width: 460px) {
-	.header_content {
-		width: 100%;
-		position: static;
-		padding: 0 15px;
+@media screen and (max-width: 1150px) {
+	.wheel_box {
+		width: 60%;
+		display: table;
+		top: 32.7%;
+		left: 20%;
+		position: absolute;
 	}
-	.header_logo {
-		width: 185px;
-		padding: 58px 0;
+}
+@media screen and (max-width: 1080px) {
+	.industries_bg_up,
+	.industries_bg_down {
+		padding-bottom: 46.6%;
 	}
-	.toggle {
-		bottom: 43px;
+	.circle_img {
+		background: url(images/waterproofing_bg.jpg) no-repeat;
+		background-size: 68%;
+		padding: 50% 0;
+		background-position: 50% -1%;
 	}
-	.quick_links,
-	.master_links {
-		width: 120px;
-		border-radius: 5px;
-		top: 5%;
+	.pedestrian_img {
+		background: url(images/PPC_20160822_0002.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0;
+		background-position: 50% 1%;
 	}
-	.path_title {
-		top: 15%;
+	.spray_img {
+		background: url(images/spray_bg.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
 	}
-	.quick_links,
-	.master_links {
-		width: 93%;
-		border-radius: 5px;
-		top: 5%;
-		margin: 10px auto;
-		float: none;
+	.cast_img {
+		background: url(images/castStock.jpeg) no-repeat;
+		background-size: 79%;
+		padding: 50% 0%;
+		background-position: 50% 1%;
 	}
-	.banner_btn {
-		top: 162px;
+	.recreation_img {
+		background: url(images/Recreation-img.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+	.theme_img {
+		background: url(images/disney-theme.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+	.raw_img {
+		background: url(images/disney-theme.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+	.poly_fil_img {
+		background: url(images/poly_fil_img.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
+	}
+	.foam_img {
+		background: url(images/foam_img.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+	.construction_img {
+		background: url(images/DJI_0002.jpg) no-repeat;
+		background-size: 119%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+		border-radius: 500px;
+		width: 80%;
+		left: 8%;
+	}
+	.concrete_img {
+		background: url(images/concrete_img.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
+	}
+
+	.containment_img {
+		background: url(images/gas-tanks-and-containers.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+	.defence_img {
+		background: url(images/defence_img.png) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
+	}
+	.infrastructure_img {
+		background: url(images/landscape-5313115_1920.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0%;
+		background-position: 50% 1%;
+	}
+	.specialty_img {
+		background: url(images/industries_img.png) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
+	}
+	.marine_img {
+		background: url(images/marine_img.png) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 17%;
+	}
+
+	.oil_gas_img {
+		background: url(images/refinery-109025_1920.jpg) no-repeat;
+		background-size: 80%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
+	}
+
+	.transport_img {
+		background: url(images/Aesthetic-Polaroid.jpg) no-repeat;
+		background-size: 73%;
+		padding: 50% 0%;
+		background-position: 50% 0%;
 	}
 }
