@@ -202,6 +202,7 @@ input.link_btn,
 	position: relative;
 	display: table;
 	width: 100%;
+	background-color: red;
 }
 
 .top_text {
@@ -729,6 +730,7 @@ input.link_btn,
 	position: relative;
 	display: table;
 	width: 100%;
+
 	/*		background: url(images/waterproofing_bg.png) no-repeat;*/
 	/*	background-size: cover;*/
 }
@@ -765,9 +767,30 @@ input.link_btn,
 	left: 15%;
 	position: absolute;
 }
+
 .circle_image_box {
 	width: 100%;
 	position: relative;
+}
+
+.left-text-box {
+	width: 100%;
+	position: relative;
+}
+
+.long-text {
+	background-color: rgba(0, 0, 0, 0.616);
+	color: white;
+	background-size: 69%;
+	padding: 15% 30% 20%;
+	text-align: center;
+	width: 100%;
+	background-position: 50% 15%;
+	position: absolute;
+	opacity: 1;
+	top: 0px;
+	left: 3px;
+	border-radius: 50%;
 }
 .circle_img {
 	background: url("https://polycoatusa.com/images/waterproofing_bg.jpg")
@@ -1288,6 +1311,82 @@ a:focus {
 	body,
 	p,
 	.link {
+		font-size: 11px;
+	}
+	.manufacturing_link p,
+	.unprecedented_link p,
+	.storied_quality_link p,
+	.Product_innovations_link p {
+		font-size: 13px;
+	}
+	.circle_blocks a,
+	.waterproofing_circle a,
+	.cast_circle a,
+	.polyfill_circle a,
+	.circle_text {
+		font-size: 11px;
+	}
+
+	.lg_title {
+		font-size: 12px;
+	}
+
+	.md_title {
+		font-size: 14px;
+	}
+	.list_title,
+	.normal_title,
+	.sm_title,
+	.page_list li,
+	.link_btn,
+	input.link_btn,
+	.master_links,
+	.quick_links {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 576px) {
+	body,
+	p,
+	.link {
+		font-size: 10px;
+	}
+	.manufacturing_link p,
+	.unprecedented_link p,
+	.storied_quality_link p,
+	.Product_innovations_link p {
+		font-size: 13px;
+	}
+	.circle_blocks a,
+	.waterproofing_circle a,
+	.cast_circle a,
+	.polyfill_circle a,
+	.circle_text {
+		font-size: 11px;
+	}
+
+	.lg_title {
+		font-size: 12px;
+	}
+
+	.md_title {
+		font-size: 10px;
+	}
+	.list_title,
+	.normal_title,
+	.sm_title,
+	.page_list li,
+	.link_btn,
+	input.link_btn,
+	.master_links,
+	.quick_links {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 376px) {
+	body,
+	p,
+	.link {
 		font-size: 8px;
 	}
 	.manufacturing_link p,
@@ -1511,8 +1610,11 @@ a:focus {
 		left: -10% !important;
 		font-size: 10px !important;
 	}
-	.division_box{
-		padding: 4px
+	.division_box {
+		padding: 4px;
+	}
+	.long-text {
+		padding: 10% 30% 20%;
 	}
 }
 
@@ -1521,8 +1623,9 @@ a:focus {
 		left: -20% !important;
 		font-size: 10px !important;
 	}
-
-	
+	.long-text {
+		padding: 10% 30% 20%;
+	}
 }
 @media screen and (max-width: 376px) {
 	.circle_text {
@@ -1530,12 +1633,15 @@ a:focus {
 		font-size: 7px !important;
 	}
 
-	.pedestrian_link{
-		left:  -25% !important;
-		
+	.pedestrian_link {
+		left: -25% !important;
+	}
+
+	.division_box {
+		padding: 4px;
+	}
+.long-text {
+		padding: 8% 30% 20%;
 	}
 	
-	.division_box{
-		padding: 4px
-	}
 }
