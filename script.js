@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    
+
     const marineIcons = document.querySelectorAll('.marine_icon, .marine_bg');
     marineIcons.forEach(function (element) {
         element.addEventListener('mouseover', function () {
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    
+
     // todo 
     const transportIcons = document.querySelectorAll('.transport_icon, .transport_bg');
     transportIcons.forEach(function (element) {
@@ -254,5 +254,23 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
- 
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
