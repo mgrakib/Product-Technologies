@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.oil_link').style.marginLeft = '-24%';
         });
     });
-
+// 
     const infrastructureIcons = document.querySelectorAll('.infrastructure_icon, .infrastructure_bg');
     infrastructureIcons.forEach(function (element) {
         element.addEventListener('mouseover', function () {
